@@ -31,10 +31,10 @@ def assign_rooms(speaker_list)
   roster
 end
 
-# And this is another alternative that could work, with method chaining: 
-# 
+# And this is another alternative that could work, with method chaining:
+#
 # def assign_rooms(speaker_list)
-# 	speaker_list.each_with_index.map  do |name, room_number|  
+# 	speaker_list.each_with_index.map  do |name, room_number|
 # 		"Put the string interpolation here"
 # 	end
 # end
