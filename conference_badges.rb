@@ -11,7 +11,7 @@ def batch_badge_creator(array)
 end
 
 # This works just as well and is a bit simpler:
-# 
+#
 # def batch_badge_creator(array)
 # 	array.map do |name|
 # 		badge_maker(name)
