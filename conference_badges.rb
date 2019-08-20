@@ -23,8 +23,7 @@ def assign_rooms(speaker_list)
   roster = []
 
 	speaker_list.each do |speaker|
-    full_sentence = "Hello, #{speaker}! You'll be assigned to room #{room_number}!"
-    roster << full_sentence
+    roster << "Hello, #{speaker}! You'll be assigned to room #{room_number}!"
     room_number += 1
   end
 
