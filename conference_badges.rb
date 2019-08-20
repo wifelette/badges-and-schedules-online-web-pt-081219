@@ -21,12 +21,12 @@ end
 # def assign_rooms(speaker_list)
 # 	room_number = 1
 #   roster = []
-# 
+#
 # 	speaker_list.each do |speaker|
 #     roster << "Hello, #{speaker}! You'll be assigned to room #{room_number}!"
 #     room_number += 1
 #   end
-# 
+#
 #   roster
 # end
 
