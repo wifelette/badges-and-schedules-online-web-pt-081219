@@ -18,17 +18,17 @@ end
 # 	end
 # end
 
-# def assign_rooms(speaker_list)
-# 	room_number = 1
-#   roster = []
-#
-# 	speaker_list.each do |speaker|
-#     roster << "Hello, #{speaker}! You'll be assigned to room #{room_number}!"
-#     room_number += 1
-#   end
-#
-#   roster
-# end
+def assign_rooms(speaker_list)
+	room_number = 1
+  roster = []
+
+	speaker_list.each do |speaker|
+    roster << "Hello, #{speaker}! You'll be assigned to room #{room_number}!"
+    room_number += 1
+  end
+
+  roster
+end
 
 # And this is another alternative that could work, with method chaining:
 #
@@ -37,16 +37,6 @@ end
 # 		"Put the string interpolation here"
 # 	end
 # end
-
-# This one's even more efficient:
-
-def assign_rooms(speaker_list)
-	room_number = 0
-	attendees.map do |speaker|
-		room_number += 1
-		"Hello, #{speaker}! You'll be assigned to room #{room_number}!"
-	end
-end
 
 def printer(speaker_list)
 
