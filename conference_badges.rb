@@ -2,12 +2,18 @@ def badge_maker(name)
 	"Hello, my name is #{name}."
 end
 
+# def batch_badge_creator(array)
+# 	array_of_names = []
+# 	array.each do |name|
+# 		array_of_names << badge_maker(name)
+# 	end
+#   array_of_names
+# end
+
 def batch_badge_creator(array)
-	array_of_names = []
-	array.each do |name|
-		array_of_names << badge_maker(name)
+	array.map do |name|
+		badge_maker(name)
 	end
-  array_of_names
 end
 
 def assign_rooms(speaker_list)
